@@ -1,7 +1,7 @@
 export type UserInput = {
   name: string;
   email: string;
-  BirthDate: string;
+  BirthDate: Date;
   password: string;
   isAdmin: boolean;
 };
